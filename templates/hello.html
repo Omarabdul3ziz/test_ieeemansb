@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'style/hello.css' %}" />
+{% endblock %}
+
 {% block content %}
 <p>Your name is Omar, And Mine too</p>
 {% endblock %}
