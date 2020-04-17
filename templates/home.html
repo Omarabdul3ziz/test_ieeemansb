@@ -96,7 +96,7 @@
             <a class="nav-link" href="#">Recruitment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Subscription</a>
+            <a class="nav-link" href="#">Newsletter</a>
           </li>
 
         </ul>
@@ -200,14 +200,7 @@
 
   </div>
 
-  <!-- Footer 
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-  </footer> -->
-
-  <!-- Site footer -->
+  <!-- Footer -->
   <footer class="site-footer">
     <div class=" container">
       <div class="row">
@@ -225,21 +218,28 @@
       </div>
       <hr>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <h6>Contact Us</h6>
-          Mansoura University,
-          <br>Dakahlia Governorate, Egypt
+          <a href="https://goo.gl/maps/dj2gF97iGE9wvLHm8">Mansoura University,
+            <br>Dakahlia Governorate, Egypt</a>
           <br>
           <br>P: (+20) 123 456 7890
           <br>E: <a href="mailto:#">secretary@ieeemansb.com</a>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <h6>About</h6>
-          <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
-            programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code
-            wants to be simple.</p>
+
+        <div class="col-sm-6 col-md-3" class="container" id="formContainer">
+          <h6>Newsletter</h6>
+          <form class="form-signin" id="login" role="form">
+            <input style="margin-bottom:10px ;" type="name" class="form-control" name="name" placeholder="Name"
+              required>
+            <input style="margin-bottom:10px ;" type="email" class="form-control" name="email" placeholder="Email"
+              required>
+            <button style="margin-bottom:10px ;" class="btn btn-lg btn-primary btn-block"
+              type="submit">Subscribe</button>
+          </form>
         </div>
 
         <div class="col-xs-6 col-md-3">
@@ -256,20 +256,24 @@
 
         <div class="col-xs-6 col-md-3">
           <h6>Annual Sponsers</h6>
-          <div class="col-xs-3 col-md-1.5">
-            <img style="width: 50px; height: auto;  margin: 10px;" src="../static/image/sponsers/google.png">
-            <img style="width: 50px; height: auto;  margin: 10px;" src="../static/image/sponsers/youtube.png">
-
+          <div class="col-xs-3 col-md-1.5" style="text-align: center;">
+            <a href="https://www.google.com"><img style="width: 50px; height: auto;  margin: 10px;"
+                src="../static/image/sponsers/google.png"></a>
+            <a href="https://www.youtube.com"><img style="width: 50px; height: auto;  margin: 10px;"
+                src="../static/image/sponsers/youtube.png">
+            </a>
           </div>
-          <div class="col-xs-3 col-md-1.5">
-            <img style="width: 50px; height: auto;  margin: 10px;" src="../static/image/sponsers/amazon.png">
-            <img style="width: 50px; height: auto;  margin: 10px;" src="../static/image/sponsers/facebook.png">
-
+          <div class="col-xs-3 col-md-1.5" style="text-align: center;">
+            <a href="https://www.amazon.com"><img style="width: 50px; height: auto;  margin: 10px;"
+                src="../static/image/sponsers/amazon.png"></a>
+            <a href="https://www.facebook.com"><img style="width: 50px; height: auto;  margin: 10px;"
+                src="../static/image/sponsers/facebook.png"></a>
           </div>
         </div>
       </div>
       <hr>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -279,6 +283,7 @@
         </div>
       </div>
     </div>
+
   </footer>
 
 
