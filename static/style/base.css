@@ -1,4 +1,202 @@
-h1 {
-    font-style: bold;
-    color: blue;
+ 
+  body {
+    margin: 0;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: silver;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 6px;  
+    border: none;
+    outline: none;
+    color: silver;
+    padding: 14px 14px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .event_name {
+    font-family: inherit;
+    color: white;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .column a {
+    float: none;
+    color: silver;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+@media screen and (max-width: 800px) {
+.topnav a:not(:first-child){
+    display: none;
+}
+.dropdown .dropbtn {
+    display: none;
+}
+.topnav a.icon {
+    float: right;
+    display: block;
+    }
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.topnav.responsive .dropdown {float: none;}
+.topnav.responsive .dropdown-content .row {position: relative;}
+.topnav.responsive .dropdown .dropbtn  {display: block;
+}
+.topnav.responsive .dropdown .dropbtn .column {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+.column {
+    float: left;
+    width: 25%;
+    height: auto;
+    
+}
+
+}
+
+footer > .container {
+
+}
+
+footer > .contacts
+{
+    background-color: #00629B;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    
+}
+.contacts > div
+{
+    background-color: rgb(41, 40, 40);
+
+}
+
+.smicons
+{
+    display: inline-block;
+    float: right;
+    margin-right: auto;
+}
+.smicons > a
+{
+    
+}
+.smicons > a > i
+{
+    padding-left: 20px; 
+    float: right;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s;
+    
+}
+.smicons > a >.fa-facebook:hover
+{
+    color: rgb(19, 74, 192);
+}
+.smicons > a >.fa-twitter:hover
+{
+    color: #1DA1F2;
+}
+.smicons > a >.fa-instagram:hover
+{
+    color: #E1306C;
+}.smicons > a >.fa-youtube:hover
+{
+    color: #FF0000;
+
 }

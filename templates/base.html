@@ -4,13 +4,89 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="{% static 'style/base.css' %}" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/style/base.css" />
+
+    <script src="{% static 'script/base.js' %}"></script>
+
     {% block style %}
     {% endblock %}
 </head>
 
 <body>
     <h1>Hello Me. ❤</h1>
+    <!----------------------------  NavBar -------------------------------->
+    <div class="topnav" id="myTopnav">
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Events ▼
+                </button>
+                <div class="dropdown-content">
+                    <div class="row">
+                        <div class="column">
+                            <h3 class="event_name">Career Insider</h3>
+                            <a href="#">v 1.0</a>
+                            <a href="#">v 2.0</a>
+                            <a href="#">v 3.0</a>
+                            <a href="#">v 4.0</a>
+                            <a href="#">v 5.0</a>
+
+                        </div>
+                        <div class="column">
+                            <h3 class="event_name">Code Steps</h3>
+                            <a href="#">v 1.0</a>
+                            <a href="#">v 2.0</a>
+                            <a href="#">v 3.0</a>
+                        </div>
+                        <div class="column">
+                            <h3 class="event_name">Tech Elixir</h3>
+                            <a href="#">v 1.0</a>
+                        </div>
+                        <div class="column">
+                            <h3 class="event_name">Robot Cemetery</h3>
+                            <a href="#">v 1.0</a>
+                            <a href="#">v 2.0</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Blog</a>
+            <a href="#">Membership</a>
+            <a href="#">Subscription</a>
+            <a href="#">Recruitment</a>
+            <a href="#">About Us</a>
+            <a href="#">FAQ</a>
+            <!--------- the responsive button--------->
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+    <hr>
+
+    <div class="contacts">
+        <div class="container">
+            <div class="smicons">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!--Facebook-->
+    <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+    <!--Twitter-->
+    <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+    <!--Instagram-->
+    <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+    <!--Youtube-->
+    <a class="yt-ic mr-3" role="button"><i class="fab fa-lg fa-youtube"></i></a>
     <hr>
     {% block content %}
     {% endblock %}
