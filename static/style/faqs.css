@@ -1,0 +1,136 @@
+body {
+    background: #fff;
+}
+
+.navbar {
+    background-color: #00629B;
+    height: 100px;
+    margin: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+}
+
+.img {
+    height: 350px;
+    width: 350px;
+    border-color: #00629B;
+    border-radius: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.accordion .card {
+    border-radius: 6px !important;
+    border: 1px solid #9aa3a3 !important;
+    margin-bottom: 5px;
+}
+
+.accordion .card .card-header {
+    background: #f9fafa;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    border-radius: 6px 6px 0 0;
+    border-bottom: none;
+}
+
+.accordion .card-header:hover {
+    background: #ecf0f0;
+}
+
+.accordion .card-header h2 span {
+    float: left;
+    margin-top: 10px;
+}
+
+.accordion .card-header .btn {
+    color: #3659a2;
+    font-size: 1.04rem;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    font-weight: 500;
+}
+
+.accordion .card-header i {
+    float: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.accordion .card-header .btn:hover {
+    color: #35589f;
+}
+
+.accordion .card-body {
+    color: #324353;
+    text-align: justify;
+    border-top: 1px solid #eceded;
+}
+
+.page-title {
+    text-align: center;
+    margin: 2rem 0;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.page-title::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #3659a2;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    width: 1000px;
+    height: 350px;
+    overflow: auto;
+}
+
+footer {
+    background-color: #00629B;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        display: block;
+    }
+    .img {
+        height: 300px;
+        width: 250px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+}
