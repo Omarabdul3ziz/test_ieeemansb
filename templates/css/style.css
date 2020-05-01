@@ -1,0 +1,311 @@
+*
+{
+    height:auto;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: calibri;
+    background-color: #ddd;
+}
+/***************About Us*****************/
+.aboutus
+{
+    
+    color: #888888;
+    margin-bottom: 25px;
+    
+}
+.headline
+{
+    box-shadow: 0px 1px 9px 4px #7b7878;
+    background-image:  linear-gradient(to bottom right,#002855  ,#00629B);
+    text-align: center;
+    color: aliceblue;
+    height: 200PX;
+    position: relative;
+}
+.headline h1
+{
+    margin-top:10px;
+}
+.headline > div
+{
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.headline > div > h1
+{
+    font-size: 50px
+}
+.aboutus > .vimi > div
+{
+    padding:30px 7% ;
+    color: #888888;
+    font-size: 18px;
+}
+.aboutus > .vimi > div > div
+{
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px -5px #7b7878;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.aboutus > .vimi > div > div > div
+{
+    padding: 3%;
+    background-image:  linear-gradient(to bottom right,#002855 30% ,#01c8d8 );
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 5px -2px #636363;
+    border-radius: 10px;
+}
+.aboutus > .vimi > div > div> div> h2
+{
+    margin-top: 10px;
+}
+/*******ourcommetties*******************/
+.combo
+{
+    background-color: #ececec;
+    box-shadow: 0px 0px 20px -5px #7b7878;
+    border-radius: 15px;
+}
+.combo > .row
+{
+    padding: 30px 10px ;
+}
+.subheadline 
+{
+    height: 80PX;
+    box-shadow: none;
+    border-radius:  15px 15px 0 0 ;
+}
+.subheadline > div > h2
+{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.com
+{
+    padding: 0;
+}
+.com > div /*commetties cards*/
+{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 3px 0px #888888;
+    border-radius: 9px;
+}
+.com > div > p
+{
+    margin-top: 20px;
+}
+.com > div > div
+{
+    background-image: linear-gradient(to bottom right,#002855 ,#005094 );
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 1px 5px 0px #888888;
+    border-radius: 4px;
+}
+.com > div > div > div
+{
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 55px;
+    top: 60px;
+    box-shadow: 0px 1px 5px 0px #888888;
+}
+.com > div > div > div > img
+{
+    height: 50px;
+    width: auto;
+}
+.com > div > div > h3
+{
+    margin-top: 10px;
+    padding-left: 70px;
+}
+/***************Our Board*******************/
+.combo > .boardrow
+{
+    padding:0px 10px 40px  10px ;
+}
+.bocard > div
+{
+    box-shadow: 0px 0px 3px 0px #888888;
+    border-radius:   15px 15px 15px 15px;
+}
+.bocard > div > .bocardtxt
+{
+    margin-top: 80px;
+    background-color: #f9f9f9;
+    padding: 10px 10px 0px 10px  ;
+    border-radius:   15px 15px 0px 0px;
+}
+.bocard > div > .bocardtxt > div
+{
+    border: 1.5px dashed #ddd ;
+    border-bottom: none;
+    padding: 50px 10px 10px 10px  ;
+    border-radius:   15px 15px 0px 0px;
+}
+.bocard > div > .bocardtxt > div >div
+{
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    top: 80px;
+    box-shadow: 0px 0px 20px -5px #888888;
+}
+.bocard > div > .bocardtxt > div > div > img
+{
+    height: 50px;
+    width: auto;
+}
+.bocard > div > div > h3
+{
+    color: #f9f9f9;
+    margin-top: 0px;
+    padding: 15px;
+    background-color: #17bde8;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px 0px  15px 15px;
+}
+/***************footer*******************/
+footer > .container
+{
+    
+}
+footer > .contacts
+{
+    background-color: #00629B;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    
+}
+.contacts > div
+{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.contacts > div > p
+{
+    color: aliceblue;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding-left:auto;
+    display: inline-block;
+
+}
+.smicons
+{
+    display: inline-block;
+    float: right;
+    margin-right: auto;
+}
+.smicons > a
+{
+    
+}
+.smicons > a > i
+{
+    padding-left: 20px; 
+    float: right;
+    font-size: 20px;
+    color: #f5f5f5;
+    transition: 0.3s;
+    
+}
+.smicons > a >.fa-facebook:hover
+{
+    color: #898F9C;
+}
+.smicons > a >.fa-twitter:hover
+{
+    color: #1DA1F2;
+}
+.smicons > a >.fa-instagram:hover
+{
+    color: #E1306C;
+}.smicons > a >.fa-youtube:hover
+{
+    color: #FF0000;
+
+}
+footer
+{
+    padding-top: 0; 
+    background-color: #002855;
+    height: auto;
+    position: relative;
+    width: inherit;
+}
+.footer_block
+{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 225px;
+    color: #00B5E2;   
+}
+.footer_block > h4
+{
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+.footer_block > p
+{
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.line
+{
+    height: 2px;
+    width: 70px;
+    background-color: #007d9e;
+}
+footer > .copyrights 
+{
+    width:1300px;
+    margin-bottom:0;
+    padding-bottom:0;
+    text-align: center;
+    background-color: #000000;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: auto;
+}
+footer > .copyrights >  p
+{
+    
+    margin: 13px;
+    color: #00629B;
+    font-weight: bold;
+}
+footer > .copyrights >  p > span
+{
+    color:#75787B;
+    font-weight: normal;
+}
